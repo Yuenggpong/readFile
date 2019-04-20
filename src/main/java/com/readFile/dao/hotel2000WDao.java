@@ -14,7 +14,6 @@ public class hotel2000WDao {
     public static void main(String[] args) throws IOException {
         // selectAllPerson();
 
-        String filePath = "C:/Users/yzp/Desktop/Hotel/HoTelData(30).csv";
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(new File(filePath)), "UTF-8"));
         List<hotel2000w> hotelList = new ArrayList<hotel2000w>();
         String str = null;
